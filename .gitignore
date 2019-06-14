@@ -5,6 +5,6 @@
 
 ## useless folders ##
 
-*/.ipynd_checkpoints/
-*/.pdf
+*/.ipynb_checkpoints/
+*.pdf
 */.vscode/
