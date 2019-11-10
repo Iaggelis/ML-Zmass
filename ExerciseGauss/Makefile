@@ -6,7 +6,6 @@ LIBS := -lMinuit -lRooFitCore
 max_L: max_L.cpp
 	$(CXX) -g $< -o $@.exe $(ROOTCXXFLAGS) $(LIBS)
 
-
 minuit2_fit: minuit2_fit.cpp
 	$(CXX) -g $< -o $@.exe $(ROOTCXXFLAGS) 
 
